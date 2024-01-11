@@ -1,81 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CURSOS</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../style/style.css">
 </head>
+
 <body>
-    <header class="encabezado">
-        <h1>CURSOSMASTER</h1>
-       
-    </header>    
-        <div class="navegacion">
-            
-            <nav>
-            <a href="../index.html">INICIO</a>
-            <a href="nosotros.html">NOSOTROS</a>
-            <a href="cursos.html">CURSOS</a>
-            <a href="donde.html">¿DÓNDE ENCONTRARNOS?</a>
-            <a href="contacto.html">CONTACTANOS</a>
-            </nav>
-            <br>
+
+    <header class="navbar navbar-expand-lg navegacion">
+        <nav class="container-fluid">
+            <a class="navbar-brand" href="../index.html">CursosMaster</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup pl-3">
+                <ul class="navbar-nav ms-auto navegacion">
+                    <li>
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="cursos.html">Cursos</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="donde.html">Donde Encontrarnos</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="container container-fluid">
+        <div class="text-center titulo">
+            <h1>Estos son los cursos que ofrecemos:</h1>
         </div>
-        <br>
-    <div class="cursosTit">
-        
-    <h2>CURSOS</h2>
-    <img  class="menCodeando"  src="../media/men codin.jpg" alt="Man condding">
-    </div>
-    <br>
+    </main>
 
-    
-    <div class="contenedorCursos">
-        <h2>Estos son los cursos que ofrecemos:</h2>
-    </div>
-    <br>
-        
-    <div class="listasCursos">
-        <ul>
-            
-            
-            <li>CURSO 1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nostrum incidunt nihil distinctio deleniti nulla rerum dicta illo aliquid minima consectetur laboriosam soluta enim ducimus vero non, nam eveniet? Alias.</li>
-            <br>
-            <br>
-            <li>CURSO 2: Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore reiciendis, iure voluptatibus consectetur rem earum provident tempore laudantium totam explicabo ipsum cumque quidem vero id similique dolorem reprehenderit numquam corrupti?</li>
-            
-            
-            <li>CURSO 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, tempore! At sint in suscipit tenetur. Repudiandae molestiae dolorum architecto, suscipit aut sequi delectus. Eligendi alias, officia officiis inventore ullam dolore.</li>
-            
-            
-            <li>CURSO 4: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minima beatae harum quisquam vero, natus velit doloremque quae iure odio id asperiores recusandae aliquid neque sunt vel aut cum unde.</li>
-            
-            
-            <li>CURSO 5: Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dolores laborum voluptates totam quia vero tempora doloremque quod quidem nulla beatae, porro accusantium, nihil eos nemo quasi adipisci harum fuga?m</li>
-            
-            
-            <li>CURSO 6: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor id nemo eos blanditiis natus illo tempora voluptate dolores iusto cumque architecto, porro quas, officia autem nobis repellat totam ut sint!</li>
-            
-            
-            <li>CURSO 7: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor id nemo eos blanditiis natus illo tempora voluptate dolores iusto cumque architecto, porro quas, officia autem nobis repellat totam ut sint!</li>
-            
-            
-            <li>CURSO 8: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor id nemo eos blanditiis natus illo tempora voluptate dolores iusto cumque architecto, porro quas, officia autem nobis repellat totam ut sint!</li>
-            
-            
-            <li>CURSO 9: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor id nemo eos blanditiis natus illo tempora voluptate dolores iusto cumque architecto, porro quas, officia autem nobis repellat totam ut sint!</li>
-        </ul>
-    </div>
-    
-    
-    
+    <section class="row">
+        <div class="card col-xl-4 col-md-6 col-sm-12 tarjetas tarjetas">
+            <img src="../media/html.png" class="card-img-top" alt="html logo">
+            <div class="card-body">
+                <h5 class="card-title">Curso HTML.</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn botones">Comprar.</a>
+            </div>
+        </div>
+
+        <div class="card col-xl-4 col-md-6 col-sm-12 tarjetas">
+            <img src="../media/css.png" class="card-img-top" alt="css logo">
+            <div class="card-body">
+                <h5 class="card-title">Curso CSS.</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn botones">Comprar.</a>
+            </div>
+        </div>
+
+        <div class="card col-xl-4 col-md-6 col-sm-12 tarjetas">
+            <img src="../media/javascript.png" class="card-img-top" alt="javascript logo">
+            <div class="card-body">
+                <h5 class="card-title">Curso Javascript.</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn botones">Comprar.</a>
+            </div>
+        </div>
+
+        <div class="card col-xl-4 col-md-6 col-sm-12 tarjetas">
+            <img src="../media/python.png" class="card-img-top" alt="python logo">
+            <div class="card-body">
+                <h5 class="card-title">Curso Python.</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn botones">Comprar.</a>
+            </div>
+        </div>
+
+        <div class="card col-xl-4 col-md-6 col-sm-12 tarjetasColor">
+            <img class="tarjetas" src="../media/git.png" class="card-img-top" alt="git logo">
+            <div class="card-body">
+                <h5 class="card-title">Curso Git.</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn botones">Comprar.</a>
+            </div>
+        </div>
+
+        <div class="card col-xl-4 col-md-6 col-sm-12 tarjetas">
+            <img src="../media/react.png" class="card-img-top" alt="reactjs logo">
+            <div class="card-body">
+                <h5 class="card-title">Curso ReactJS.</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Comprar.</a>
+            </div>
+        </div>
+
+    </section>
 
 
-        <footer>
-            <h6>TODOS LOS DERECHOS RESERVADOS A CURSOS MASTER</h6>
-        </footer>
-    
-    
+
+
+
+
+
+    <footer>
+        <h6>TODOS LOS DERECHOS RESERVADOS A CURSOS MASTER</h6>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
