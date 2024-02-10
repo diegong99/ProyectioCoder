@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+    color: #82a3a1;
+    text-align: center;
+}
+
+header {
+    background-color: #465362;
+    border-top: 10px solid #011936;
+}
+
+footer {
+    text-align: center;
+    border-top: 3px #011936 solid;
+    font-size: 20px;
+    background-color: #82a3a1;
+    padding: 10px;
+}
+
+ul {
+    background-color: #465362;
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+    color: #011936;
+}
+
+
+
+
+
+
+/* PÁGINA PRINCIPAL */
+
+
+
+
+
+.titulo {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.navegacion {
+    background-color: #465362;
+    text-align: center;
+    text-decoration: none;
+    color: #011936;
+}
+
+.itemNavegacion:hover {
+    background-color: #011936;
+    color: white;
+}
+
+.contenedorTitulo {
+    background-color: #011936;
+}
+
+.botonSlide {
+    background-color: #82a3a1;
+}
+
+.carrusel {
+    width: 700px;
+    height: 700px;
+    background-color: #82a3a1;
+    border-top: 0.5rem solid #011936;
+}
+
+
+
+.imgMain {
+    padding: 5.5rem;
+}
+
+/*Vista Movil*/
+
+@media (max-width:575px) {
+
+    .carrusel {
+        width: 100%;
+    }
+
+    .imgMain {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*Vista tablet*/
+
+@media (max-width: 767px) {
+
+    .imgMain {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*NOSOTROS*/
+.tituloNosotros {
+    background-color: #011936;
+    width: 305px;
+    margin-left: 100px;
+    margin-top: 2rem;
+}
+
+.contenedorParrafo {
+    background-color: #011936;
+    font-size: 30px;
+    margin: 2%;
+    margin-right: 50%;
+    padding: 1.5%;
+    color: #82a3a1;
+}
+
+.hombreCodeando {
+    width: 1000px;
+    height: 800px;
+    margin-left: 38%;
+}
+
+.slogan {
+    font-size: 68px;
+    font-weight: bold;
+    margin: 12%;
+    margin-left: 20%;
+}
+
+/*VISTA MOVIL*/
+
+@media (max-width: 575px) {
+
+    .contenedorParrafo {
+
+        font-size: 22px;
+        margin: 0px;
+
+        padding: 1.5%;
+        width: 100%;
+
+    }
+
+    .hombreCodeando {
+        width: 450px;
+        height: 450px;
+        margin-left: 9%;
+    }
+
+    .slogan {
+        font-size: 50px;
+        margin-left: 15%;
+
+    }
+}
+
+/*VISTA TABLET*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .tituloNosotros {
+        margin-left: 30%;
+    }
+
+    .hombreCodeando {
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+    }
+
+    .slogan {
+        margin-left: 13%;
+    }
+
+}
+
+
+
+
+
+/*CURSOS*/
+.tituloCursos {
+    background-color: #011936;
+
+}
+
+.botones {
+    border: 3px #011936 solid;
+    border-radius: 5px;
+    background-color: #011936;
+    color: white;
+    font-size: 25px;
+    margin-left: 40%;
+}
+
+.botones:hover {
+    border: 3px #82a3a1;
+    border-radius: 5px;
+    background-color: #82a3a1;
+    color: #011936;
+    font-size: 25px;
+}
+
+.tarjetas {
+    border-top: 10px solid #011936;
+
+}
+
+/*PATROCINADORES*/
+.tituloPatrocinadores {
+    background-color: #011936;
+    padding-left: 15%;
+}
+
+.imgPatrocinadores:hover {
+    transition: all 0.5s;
+    width: 650px;
+    height: 450px;
+}
+
+
+.imgPatrocinadores {
+    width: 600px;
+    height: 400px;
+}
+
+
+
+/*CONTACTO*/
+.tituloContacto {
+    background-color: #011936;
+}
+
+.formulario {
+    background-color: #82a3a1;
+    font-size: 30px;
+    padding: 1%;
+    width: 350px;
+    margin-left: 40%;
+}
+
+.botonSend {
+    border: 3px #011936 solid;
+    border-radius: 5px;
+    background-color: #011936;
+    color: white;
+    font-size: 25px;
+    margin-left: 40%;
+
+}
+
+.botonSend:hover {
+    border: 3px #82a3a1;
+    border-radius: 5px;
+    background-color: #82a3a1;
+    color: #011936;
+    font-size: 25px;
+}
+
+/*Vista Movil*/
+
+@media (max-width: 575px) {
+
+    .formulario {
+        margin-left: 23%;
+    }
+}
