@@ -1,0 +1,84 @@
+/* PÁGINA PRINCIPAL */
+
+
+
+
+
+
+/*Vista Movil*/
+
+@media (max-width:575px) {
+
+    .carrusel {
+        width: 100%;
+    }
+
+    .imgMain {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*Vista tablet*/
+
+@media (max-width: 767px) {
+
+    .imgMain {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*VISTA MOVIL*/
+
+@media (max-width: 575px) {
+
+    .contenedorParrafo {
+
+        font-size: 22px;
+        margin: 0px;
+
+        padding: 1.5%;
+        width: 100%;
+
+    }
+
+    .hombreCodeando {
+        width: 450px;
+        height: 450px;
+        margin-left: 9%;
+    }
+
+    .slogan {
+        font-size: 50px;
+        margin-left: 15%;
+
+    }
+}
+
+/*VISTA TABLET*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .tituloNosotros {
+        margin-left: 30%;
+    }
+
+    .hombreCodeando {
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+    }
+
+    .slogan {
+        margin-left: 13%;
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .formulario {
+        margin-left: 23%;
+    }
+}

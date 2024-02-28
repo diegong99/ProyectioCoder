@@ -1,0 +1,36 @@
+.titulo {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navegacion {
+    background-color: #465362;
+    text-align: center;
+    text-decoration: none;
+    color: #011936;
+}
+
+.itemNavegacion:hover {
+    background-color: #011936;
+    color: white;
+}
+
+.contenedorTitulo {
+    background-color: $color-contenedores;
+}
+
+.botonSlide {
+    background-color: #82a3a1;
+}
+
+.carrusel {
+    width: 700px;
+    height: 700px;
+    background-color: #82a3a1;
+    border-top: 0.5rem solid #011936;
+}
+
+.imgMain {
+    padding: 5.5rem;
+}
